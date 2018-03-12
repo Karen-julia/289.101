@@ -1,0 +1,24 @@
+div {
+    outline: 1px solid red;
+}
+
+.container{
+    width:1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    height: 200px;
+    width: 100%;
+}
+.logo{
+    width:250px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.slogan{
+    width:380px;
+    Color: #a37b71
+    
+}
