@@ -1,25 +1,4 @@
-.violet{
-    color:violet
-} 
-
-.box1{
-    width: 200px;
-    height: 200px;
-    background-color: red;
-    float:left;
-
-}
-.box2{
-    width: 200px;
-    height: 200px;
-    background-color: blue;
-    float:right;
-}
-
-.container{
-    width:400px;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    
+.body {
+    background-color: #441E13;
+    color: white;
 }
