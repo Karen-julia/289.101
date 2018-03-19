@@ -76,10 +76,10 @@ div{
 
 .blue {
     background-color: #95AFAD;
-    width: 217px;
+    width: 200px;
     height: 900px;
-    float: left;
-    margin: auto;
+    float: auto;
+    margin: left;
 }
 
 .nav2 li{
