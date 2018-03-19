@@ -1,29 +1,25 @@
-div{
-    outline: 1px solid pink;
-}
 
 .container{
     width:920px;
     margin-left: auto;
     margin-right: auto;
 }
-
 .header{
     background-color: blue;
-    height: 200px; 
-    width: 920px;
+    height: 100px;
+    width:920px;
 }
 
-.submenu{
+.redboxes{
     background-color: red;
     height: 400px;
-    width: 200px;
+    width: 306px;
     float: left;
 }
 
-.content{
+.footer{
     background-color: green;
-    width: 700px;
-    height: 400px;
-    float: left;
+    height: 200px;
+    width: 920;
+    float: left
 }
