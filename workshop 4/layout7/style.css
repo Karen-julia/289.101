@@ -1,0 +1,54 @@
+
+.container{
+    width:920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    background-color: blue;
+    height: 100px;
+    width: 920px;
+}
+.yellowbox1{
+    background-color: yellow;
+    height: 55px;
+    width: 250px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+.yellowbox2{
+    background-color: yellow;
+    height: 55px;
+    width: 600px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+.greenbox1{
+    background-color: green;
+    width: 920px;
+    height: 500px;   
+
+}
+
+.content{
+    background-color: red;
+    height:400px;
+    width:920px;
+    float: left;
+}
+
+.yellowbox2 {
+    background-color: yellow;
+    height: 360 px;
+    width: 700 px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
