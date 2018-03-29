@@ -81,12 +81,12 @@ body{
     margin-right: 10px;  
 }
 
-.links a: hover{
-    color: #f06c64
+.links a:hover {
+    color: #f06c64;
 }
 
 .salmon{
-    color: #f06c64
+    color:#f06c64;
 }
 
 .banner{
@@ -165,7 +165,7 @@ body{
 }
 
 .portfolioheader{
-    height: 800px;
+    height: 850px;
 }
 
 
@@ -178,9 +178,14 @@ body{
 
 .links2 a {
     color:  #666d89;
-    text-decoration: none; /*boarer around*/
+    text-decoration: none;  
     margin-left: 10px;
     margin-right: 10px;  
+}
+
+
+.links2 a:hover {
+    color: white;
 }
 
 .gallery{
@@ -294,6 +299,7 @@ body{
     float:right;
     margin-top: 15px;
 }
+
 
 @media screen and (max-width:400px){
     body{
