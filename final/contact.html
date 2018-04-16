@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <title> Makeup By Karen and Neve </title>
+        <link rel="stylesheet" href="style.css">
+   
+    </head>
+
+    <body style="background-color: #f2e3dc;">
+        
+        <div class="header">
+            
+            <div class="logo"> <img src="image/logo.jpg" width=85px height=85px> </div>
+           
+            <div class="nav">
+   
+                <a href="index.html" class="btn">Home</a>
+                <a href="gallery.html" class="btn">Gallery</a>
+                <a href="about.html" class="btn">About</a>
+                <a href="contact.html" class="btn">Contact</a>
+            </div>
+        </div>
+        
+            <div class="fillinbox">
+                <div class="fillinbox2">
+
+<form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+
+<p>
+<label>Name
+<input type="text" name="customer_name" required>
+</label> 
+</p>
+
+<p>
+<label>Phone 
+<input type="tel" name="phone_number">
+</label>
+</p>
+
+<p>
+<label>Email 
+<input type="email" name="email_address">
+</label>
+</p>
+
+<fieldset>
+<legend>What Service do you require?</legend>
+<p><label class="choice"> <input type="radio" name="taxi" required value="car"> Makeup </label></p>
+<p><label class="choice"> <input type="radio" name="taxi" required value="van"> Hair </label></p>
+<p><label class="choice"> <input type="radio" name="taxi" required value="tuktuk"> Makeup and Hair </label></p>
+</fieldset>
+
+<p>
+<label>Date/Time
+<input type="datetime-local" name="pickup_time" required>
+</label>
+</p>
+	
+<p>
+<label>Amount of Clients 
+<select id="pickup_place" name="pickup_place">
+<option value="" selected="selected">Select One</option>
+<option value="office" >1</option>
+<option value="town_hall" >2</option>
+<option value="telepathy" >3</option>
+<option value="telepathy" >4</option>
+<option value="telepathy" >5</option>
+<option value="telepathy" >6</option>
+</select>
+</label> 
+</p>
+    
+<p>
+<label> Place of Appointment
+<select id="pickup_place" name="pickup_place">
+<option value="" selected="selected">Select One</option>
+<option value="town_hall" >Karori - Karen's home</option>
+<option value="telepathy" >Island Bay - Neve's home</option>
+<option value="telepathy" >Your Home</option>
+</select>
+</label> 
+</p>
+
+
+
+<p>
+<datalist id="destinations">
+<option value="Airport">
+<option value="Beach">
+<option value="Fred Flinstone's House">
+</datalist>
+</p>
+
+<p>
+<label>Special Instructions
+<textarea name="comments" maxlength="500"></textarea>
+</label>
+</p>
+
+<p><button>Submit Booking</button></p>
+
+</form>
+
+                </div>
+            </div>
+        
+        <div class="socialmedia">
+                <div class="socialmedia2">
+                   
+                    <div class="socialtext">
+                        <div class="socialicon">
+                        <img src="image/instagram%20icon.png" width=50px height=50px alt="instagram">
+                         </div>
+                          <div class="socialtextbox">
+                            <p> @Makeup_kn </p>
+                        </div>
+                    </div>
+                    
+                    <div class="socialtext">
+                        <div class="socialicon">
+                        <img src="image/facebook%20icon.png" width=50px height=50px alt="facebook icon"></div>
+                        <div class="socialtextbox">
+                            <p> @Makeup_kn </p>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="socialtext">
+                        <div class="socialicon">
+                        <img src="image/youtube%20icon.png" width=60px height=50px alt="youtube icon"> </div>
+                        <div class="socialtextbox">
+                            <p> @Makeup_kn </p>
+                        </div>
+                    </div>
+                 
+                 </div>
+                    
+                
+             </div>
+    </body>
+    
+</html>
