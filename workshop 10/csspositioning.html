@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Absolute Positioning Example </title>
+    </head>
+    
+    <style>
+        body {margin: 0 }
+        
+        #red {
+            background-color: red;
+            height: 250px;
+            width: 250px;
+            position: relative; /* necessay to position child elements */
+        }
+            
+        #yellow{
+            background-color: yellow;
+            height: 80px;
+            width: 80px;
+            position: absolute;
+            top: 20px;
+            left: 50px;
+            z-index: 1;
+        }
+        
+        #purple{
+            background-color: purple;
+            height: 30px;
+            width: 190px;
+            position: absolute; /* according to position of red */
+            left: 10px;
+            top:50px
+        }
+        
+        #blue{
+            background-color: lightblue;
+            height: 50px;
+            width: 50px;
+            position: fixed; /*apply itself to the view port it stays where you put it */
+            bottom: 10px;
+            right:50px
+        }
+        
+    </style>
+    
+    <body>
+        
+        <div id="red">
+            <div id="yellow"></div>
+            <div id="purple"></div>
+        
+        </div>
+        
+        <dic id="blue">
+        
+        
+        </dic>
+        
+        
+    </body>
+
+
+</html>
